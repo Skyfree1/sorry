@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Hello 💙</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="phone">
+
+    <!-- BACKGROUND LAUT -->
+    <div class="ocean">
+
+        <!-- Bubble -->
+        <div class="bubble bubble-1"></div>
+        <div class="bubble bubble-2"></div>
+        <div class="bubble bubble-3"></div>
+        <div class="bubble bubble-4"></div>
+        <div class="bubble bubble-5"></div>
+        <div class="bubble bubble-6"></div>
+
+        <!-- Ikan -->
+        <div class="fish fish-1">🐟</div>
+        <div class="fish fish-2">🐠</div>
+        <div class="fish fish-3">🐟</div>
+        <div class="fish fish-4">🐠</div>
+        <div class="fish fish-5">🐟</div>
+
+        <!-- Tanaman laut -->
+        <div class="seaweed seaweed-1">🌿</div>
+        <div class="seaweed seaweed-2">🌿</div>
+        <div class="seaweed seaweed-3">🌿</div>
+
+        <!-- Pasir -->
+        <div class="sand"></div>
+
+    </div>
+
+
+    <!-- HALAMAN 1 -->
+    <section class="page page-1 active">
+
+        <div class="content">
+
+            <div class="gift-card">
+
+                <div class="hello">
+                    Hello Princess
+                </div>
+
+                <div class="cat-box-image">
+                    <img src="cat-box.png" alt="Kucing dalam kardus">
+                </div>
+
+            </div>
+
+
+            <button class="tap-button" onclick="nextPage()">
+                tap &gt;
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- HALAMAN 2 -->
+    <section class="page page-2">
+
+        <div class="message-card">
+
+            <div class="message-icon">
+                 <img src="foto-page2.png" alt="Foto">
+                
+            </div>
+
+            <h1>
+                Guten Abend...
+            </h1>
+
+            <p>
+                Ada sesuatu yang ingin aku sampaikan.
+            </p>
+
+            <button onclick="nextPage()">
+                Continue &gt;
+            </button>
+
+        </div>
+
+    </section>
+
+
+<!-- HALAMAN 3 -->
+<section class="page page-3">
+
+    <div class="message-card">
+
+        <div class="message-icon">
+            <img src="foto-page3.png" alt="Foto">
+        </div>
+
+        <h1>
+            wie war der tag?
+        </h1>
+
+        <p>
+            udahan dong nyindir di storynya
+        </p>
+
+        <div class="choice-buttons">
+
+            <button class="yes-button" onclick="nextPage()">
+                Iya deh 😌
+            </button>
+
+            <button class="no-button" id="noButton">
+                Ga mau 😏
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+        <!-- HALAMAN 4 -->
+    <section class="page page-4">
+
+        <div class="message-card">
+
+            <div class="message-icon">
+                
+            </div>
+
+            <p>
+                hehehehehehe<br>
+                aku tau ini udah terlambat<br> 
+                aku mau bilang maaf ya udah buat kamu kecewa<br> 
+                sebenarnya niatan aku ga ada mau buat kecewa <br>
+                tapi dikarekan aku cowo bingung jadinya kata”ku malah buat salah paham<br>
+                dan satu hal lagi aku juga ga ada niatan mau putus komunikasi atau apapun itu<br><br>
+
+                banyak hal yg mau aku klarifikasikan <br>
+                cuman aku takut malah makin ruyem<br>
+                jadinya cuman bisa ngasi ini aja hehe <br>
+            </p>
+
+            <button onclick="nextPage()">
+                Continue &gt;
+            </button>
+
+        </div>
+
+    </section>
+
+
+<section class="page page-5">
+
+    <div class="final-card">
+
+        <div class="final-icon">
+            <img src="foto-akhir.png" alt="Foto">
+        </div>
+
+        <h1>
+            Thank You<br>
+            Danke<br>
+        </h1>
+
+        <p>
+            Terima kasih sudah sampai di sini.
+        </p>
+
+        <button onclick="restart()">
+            Replay ↻
+        </button>
+
+    </div>
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
